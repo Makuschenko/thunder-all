@@ -14,7 +14,6 @@ gem 'coffee-rails',            '4.2.2'
 gem 'jquery-rails',            '4.3.1'
 gem 'turbolinks',              '5.0.1'
 gem 'jbuilder',                '2.7.0'
-gem 'fog', '1.23.0'
 gem 'fog-aws',                 '2.0.0'
 gem 'net-ssh'
 gem 'xmlrpc'
@@ -42,7 +41,8 @@ end
 group :production do
   gem 'pg',  '0.20.0'
   gem 'rails_12factor'
-  gem 'puma',                    '3.9.1'    
+  gem 'puma',                    '3.9.1'
+  gem 'fog', '1.23.0'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
